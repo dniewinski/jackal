@@ -1,0 +1,8 @@
+# The empty Jackal extras configuration has nothing in it and should not.
+# It is meant to override the default to add custom control parameters
+# file in your own Jackal customization package and setting JACKAL_CONFIG_EXTRAS
+# to your customization file in the launch fil control.launch.
+# Each parameter will need to be loaded in the correct namespace to
+# be used. For example, for a Jackal with a GX5 IMU.
+# This can be used to change ekf_localization/imu0 to the topic published
+# by the node, e.g. /gx5/data
